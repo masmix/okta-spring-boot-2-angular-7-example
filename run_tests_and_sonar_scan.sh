@@ -11,7 +11,7 @@ cd ..
 cd client
 npm i
 
-CI=true npm test -- --code-coverage --watchAll=false
+CI=true npm test -- --code-coverage --watch=false
 
 CI=true npm run build
 
